@@ -1,13 +1,14 @@
 // import { useState } from 'react'
 
 import "./App.css";
-import Pagination from "./Components/Pagination.jsx";
+import TabForm from "./Components/TabForm/TabForm.jsx";
 
 function App() {
   // const [page, setPage]=useState()
   return (
     <>
-      <Pagination />
+      {/* <Pagination /> */}
+      <TabForm />
     </>
   );
 }
